@@ -1,0 +1,10 @@
+I:\github\RecipeWizard\RecipeWizard\RecipeWizard.DB\bin\Debug\RecipeWizard.DB.dacpac
+I:\github\RecipeWizard\RecipeWizard\RecipeWizard.DB\bin\Debug\RecipeWizard.DB.dll
+I:\github\RecipeWizard\RecipeWizard\RecipeWizard.DB\bin\Debug\RecipeWizard.DB.pdb
+I:\github\RecipeWizard\RecipeWizard\RecipeWizard.DB\obj\Debug\RecipeWizard.DB.sqlprojAssemblyReference.cache
+I:\github\RecipeWizard\RecipeWizard\RecipeWizard.DB\obj\Debug\Model.xml
+I:\github\RecipeWizard\RecipeWizard\RecipeWizard.DB\obj\Debug\refactor.xml
+I:\github\RecipeWizard\RecipeWizard\RecipeWizard.DB\obj\Debug\postdeploy.sql
+I:\github\RecipeWizard\RecipeWizard\RecipeWizard.DB\obj\Debug\predeploy.sql
+I:\github\RecipeWizard\RecipeWizard\RecipeWizard.DB\obj\Debug\RecipeWizard.DB.dll
+I:\github\RecipeWizard\RecipeWizard\RecipeWizard.DB\obj\Debug\RecipeWizard.DB.pdb
