@@ -1,5 +1,6 @@
 ﻿using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using RecipeWizard.BusinesObjects;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,9 @@ namespace RecipeWizard.Repositories
 {
     public class IngredientRepository : BaseRepository
     {
+        public IngredientRepository(IConfiguration configuration) : base(configuration)
+        { }
+
         public DbSet<IngredientGet> Ingredients { get; set; }
 
         public List<IngredientGet> GetIngredientsByRecipeId(Recipe recipe)

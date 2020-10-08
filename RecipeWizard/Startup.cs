@@ -60,16 +60,6 @@ namespace RecipeWizard
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-                //endpoints.MapGet("/api/recipe/count", async context =>
-                //{
-                //    var service = app.ApplicationServices.CreateScope().ServiceProvider.GetRequiredService<RecipeService>();
-                    
-                //    int countOfAllRecipes = service.CountRecipes();
-                //    context.Response.Headers.Append("Content-Type", new StringValues("application/json; charset=utf-8"));
-                //    await context.Response.WriteAsync("{\"countOfAllRecipes\": " + countOfAllRecipes + "}");
-                //}
-                    
-                //);
             });
         }
     }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using RecipeWizard.BusinesObjects;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,9 @@ namespace RecipeWizard.Repositories
 {
     public class RecipeRepository : BaseRepository
     {
+        public RecipeRepository(IConfiguration configuration) : base(configuration)
+        { }
+
         public DbSet<Recipe> Recipes { get; set; }
 
         public Recipe GetById(Guid id)

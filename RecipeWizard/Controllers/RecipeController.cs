@@ -29,12 +29,6 @@ namespace RecipeWizard.Controllers
             }
         }
 
-        [HttpGet("/count")]
-        public IActionResult GetRecipeCount()
-        {
-            return Ok(new { CountOfAllRecipes = _recipeService.CountRecipes() });
-        }
-
         [HttpGet("{id}")]
         public IActionResult GetById(Guid id)
         {
@@ -43,6 +37,13 @@ namespace RecipeWizard.Controllers
             else { return NotFound();  }
         }
 
-        
+
+        [HttpGet("count")]
+        public IActionResult GetRecipeCount()
+        {
+            return Ok(new { CountOfAllRecipes = _recipeService.CountRecipes() });
+        }
+
+
     }
 }
